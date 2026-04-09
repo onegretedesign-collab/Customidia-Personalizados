@@ -358,15 +358,15 @@ export default function App() {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div 
-            className="flex items-center gap-2 cursor-pointer"
+            className="flex items-center cursor-pointer"
             onClick={() => navigateTo("home")}
           >
-            <div className="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg">
-              C
-            </div>
-            <span className="text-2xl font-heading font-extrabold tracking-tight hidden sm:block">
-              CUSTOMIDIA
-            </span>
+            <img 
+              src="https://i.postimg.cc/Ghb2fL88/LOGO_CUSTOMIDIA_PERSONALIZADOS_PRETO.png" 
+              alt="Customidia Logo" 
+              className="h-26 md:h-40 w-auto object-contain transition-all duration-300"
+              referrerPolicy="no-referrer"
+            />
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -546,13 +546,13 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-2">
-              <div className="flex items-center gap-2 mb-6">
-                <div className="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center text-white font-bold shadow-md">
-                  C
-                </div>
-                <span className="text-xl font-heading font-extrabold tracking-tight">
-                  CUSTOMIDIA
-                </span>
+              <div className="flex items-center mb-6">
+                <img 
+                  src="https://i.postimg.cc/Ghb2fL88/LOGO_CUSTOMIDIA_PERSONALIZADOS_PRETO.png" 
+                  alt="Customidia Logo" 
+                  className="h-10 w-auto object-contain"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <p className="text-muted-foreground max-w-sm mb-8">
                 Transformando ideias em brindes inesquecíveis. Qualidade premium e compromisso sustentável em cada detalhe.
